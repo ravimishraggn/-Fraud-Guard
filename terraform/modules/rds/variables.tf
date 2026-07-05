@@ -1,0 +1,7 @@
+variable "project_name" { type = string }
+variable "environment" { type = string }
+variable "vpc_id" { type = string }
+variable "data_subnet_ids" { type = list(string) }
+variable "app_security_group" { type = string }
+variable "db_instance_class" { type = string }
+variable "db_allocated_storage" { type = number }
